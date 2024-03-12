@@ -23,10 +23,10 @@ const styles = StyleSheet.create({
 export default function MenuNav() {
   return (
     <View style={styles.body}>
-    <Drawer.Navigator>
-      <Drawer.Screen name="Profile" component={ProfileScreen} />
-      <Drawer.Screen name="Settings" component={SettingsScreen} />
-    </Drawer.Navigator>
+      <Drawer.Navigator>
+        <Drawer.Screen name="Profile" component={ProfileScreen} />
+        <Drawer.Screen name="Settings" component={SettingsScreen} />
+      </Drawer.Navigator>
     </View>
   );
 }
