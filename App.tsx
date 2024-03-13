@@ -5,7 +5,7 @@ import MenuNav from 'components/Menu';
 export default function App() {
   return (
       <NavigationContainer>
-      <MenuNav/>
+        <MenuNav/>
       </NavigationContainer>
   );
 }
