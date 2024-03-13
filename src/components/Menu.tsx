@@ -21,13 +21,18 @@ export default function MenuNav() {
         <Drawer.Navigator 
             screenOptions={{
                 drawerStyle: {
-                    backgroundColor: '#c6cbef',
+                    backgroundColor: 'rgb(116, 172, 0)',
                     width: 240,
                     }, 
-                drawerActiveBackgroundColor : 'red',
+                drawerActiveBackgroundColor : 'rgb(116, 172, 172)',
                 headerStyle: {
-                    backgroundColor: 'blue'
+                    backgroundColor: 'rgb(116, 172, 0)',
+                    
                 },
+                headerTintColor: 'white',
+                drawerLabelStyle : {
+                    color: 'white'
+                }
             }}
         >
         <Drawer.Screen name="About" component={AboutScreen} />
